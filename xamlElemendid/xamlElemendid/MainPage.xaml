@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamlElemendid.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout Padding="50,60,50,60">
+            <Button Text="Timer" Clicked="Button_Clicked"/>
+            <Button x:Name="webView" Text="WebView" Clicked="webView_Clicked"/>
+            <Button x:Name="tableview" Text="TableView" Clicked="tableview_Clicked"/>
+            <Button x:Name="datapicker" Text="DataPicker" Clicked="datapicker_Clicked"/>
+            <Button x:Name="picker" Text="Picker" Clicked="picker_Clicked"/>
+            <Button x:Name="timepicker" Text="TimePicker" Clicked="timepicker_Clicked"/>
+            <Button x:Name="alert" Text="alert" Clicked="alert_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
