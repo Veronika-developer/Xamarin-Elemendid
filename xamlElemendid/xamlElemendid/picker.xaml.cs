@@ -30,6 +30,8 @@ namespace xamlElemendid
             pick.Items.Add("JavaScript");
             pick.Items.Add("Java");
             pick.Items.Add("PHP");
+            pick.Items.Add("Python");
+            pick.Items.Add("C++");
 
             pick.SelectedIndexChanged += Picker_SelectedIndexChanged;
 

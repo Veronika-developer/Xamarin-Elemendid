@@ -11,7 +11,7 @@
             <Button x:Name="datapicker" Text="DataPicker" Clicked="datapicker_Clicked"/>
             <Button x:Name="picker" Text="Picker" Clicked="picker_Clicked"/>
             <Button x:Name="timepicker" Text="TimePicker" Clicked="timepicker_Clicked"/>
-            <Button x:Name="alert" Text="alert" Clicked="alert_Clicked"/>
+            <Button x:Name="listview" Text="ListView" Clicked="listview_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 

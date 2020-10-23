@@ -19,9 +19,7 @@ namespace xamlElemendid
             label = new Label { Text = "Выберите дату" };
             datePicker = new DatePicker
             {
-                Format = "D",
-                MaximumDate = DateTime.Now.AddDays(5),
-                MinimumDate = DateTime.Now.AddDays(-5)
+                Format = "D"
             };
             datePicker.DateSelected += DatePicker_DateSelected; ;
             StackLayout stack = new StackLayout { Children = { label, datePicker } };
@@ -31,6 +29,22 @@ namespace xamlElemendid
         private void DatePicker_DateSelected(object sender, DateChangedEventArgs e)
         {
             label.Text = "Вы выбрали " + e.NewDate.ToString("dd/MM/yyyy");
+            if(e.NewDate.ToString("dd/MM/yyyy") == "14/02/2021")
+            {
+                label.Text = "Вы выбрали день всех влюбленных";
+            }
+            if (e.NewDate.ToString("dd/MM/yyyy") == "31/12/2020")
+            {
+                label.Text = "Вы выбрали новый год";
+            }
+            if (e.NewDate.ToString("dd/MM/yyyy") == "01/01/2021")
+            {
+                label.Text = "Вы выбрали новый год";
+            }
+            if (e.NewDate.ToString("dd/MM/yyyy") == "01/09/2021")
+            {
+                label.Text = "Вы выбрали день знаний";
+            }
         }
     }
 }

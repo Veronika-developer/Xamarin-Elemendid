@@ -46,9 +46,9 @@ namespace xamlElemendid
             await Navigation.PushAsync(new timepicker());
         }
 
-        private async void alert_Clicked(object sender, EventArgs e)
+        private async void listview_Clicked(object sender, EventArgs e)
         {
-            
+            await Navigation.PushAsync(new listview());
         }
     }
 }
