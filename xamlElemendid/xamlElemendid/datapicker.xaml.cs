@@ -16,7 +16,7 @@ namespace xamlElemendid
         DatePicker datePicker;
         public datapicker()
         {
-            label = new Label { Text = "Выберите дату" };
+            label = new Label { Text = "Выберите дату", FontSize = 24 };
             datePicker = new DatePicker
             {
                 Format = "D"
@@ -28,22 +28,22 @@ namespace xamlElemendid
 
         private void DatePicker_DateSelected(object sender, DateChangedEventArgs e)
         {
-            label.Text = "Вы выбрали " + e.NewDate.ToString("dd/MM/yyyy");
+            label.Text = "Вы выбрали: " + e.NewDate.ToString("dd/MM/yyyy");
             if(e.NewDate.ToString("dd/MM/yyyy") == "14/02/2021")
             {
-                label.Text = "Вы выбрали день всех влюбленных";
+                label.Text = "Вы выбрали праздник день всех влюбленных";
             }
             if (e.NewDate.ToString("dd/MM/yyyy") == "31/12/2020")
             {
-                label.Text = "Вы выбрали новый год";
+                label.Text = "Вы выбрали праздник новый год";
             }
             if (e.NewDate.ToString("dd/MM/yyyy") == "01/01/2021")
             {
-                label.Text = "Вы выбрали новый год";
+                label.Text = "Вы выбрали праздник новый год";
             }
             if (e.NewDate.ToString("dd/MM/yyyy") == "01/09/2021")
             {
-                label.Text = "Вы выбрали день знаний";
+                label.Text = "Вы выбрали праздник день знаний";
             }
         }
     }

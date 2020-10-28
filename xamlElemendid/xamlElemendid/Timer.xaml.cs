@@ -19,7 +19,8 @@ namespace xamlElemendid
         {
             StackLayout stack = new StackLayout()
             {
-                BackgroundColor = Color.FromHex("#a2c2cf")
+                BackgroundColor = Color.FromHex("#a2c2cf"),
+                Padding = new Thickness(50,60,50,60)
             };
             timerLabel = new Label
             {
@@ -34,6 +35,7 @@ namespace xamlElemendid
                 VerticalOptions = LayoutOptions.Start,
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 Text = "STOP",
+                BackgroundColor = Color.White,
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Button))
             };
             stopButton.Clicked += StopButton_Clicked;
@@ -42,6 +44,7 @@ namespace xamlElemendid
                 VerticalOptions = LayoutOptions.Start,
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 Text = "START",
+                BackgroundColor = Color.White,
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Button))
             };
             startButton.Clicked += StartButton_Clicked; ;

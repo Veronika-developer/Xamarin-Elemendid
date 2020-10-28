@@ -4,14 +4,14 @@
              x:Class="xamlElemendid.MainPage">
 
     <ContentPage.Content>
-        <StackLayout Padding="50,60,50,60">
-            <Button Text="Timer" Clicked="Button_Clicked"/>
-            <Button x:Name="webView" Text="WebView" Clicked="webView_Clicked"/>
-            <Button x:Name="tableview" Text="TableView" Clicked="tableview_Clicked"/>
-            <Button x:Name="datapicker" Text="DataPicker" Clicked="datapicker_Clicked"/>
-            <Button x:Name="picker" Text="Picker" Clicked="picker_Clicked"/>
-            <Button x:Name="timepicker" Text="TimePicker" Clicked="timepicker_Clicked"/>
-            <Button x:Name="listview" Text="ListView" Clicked="listview_Clicked"/>
+        <StackLayout Padding="50,60,50,60" BackgroundColor="LightGray">
+            <Button Text="Timer" BackgroundColor="Black" TextColor="White" Clicked="Button_Clicked"/>
+            <Button x:Name="webView" BackgroundColor="Black" TextColor="White" Text="WebView" Clicked="webView_Clicked"/>
+            <Button x:Name="tableview" BackgroundColor="Black" TextColor="White" Text="TableView" Clicked="tableview_Clicked"/>
+            <Button x:Name="datapicker" BackgroundColor="Black" TextColor="White" Text="DataPicker" Clicked="datapicker_Clicked"/>
+            <Button x:Name="picker" BackgroundColor="Black" TextColor="White" Text="Picker" Clicked="picker_Clicked"/>
+            <Button x:Name="timepicker" BackgroundColor="Black" TextColor="White" Text="TimePicker" Clicked="timepicker_Clicked"/>
+            <Button x:Name="listview" BackgroundColor="Black" TextColor="White" Text="ListView" Clicked="listview_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 
