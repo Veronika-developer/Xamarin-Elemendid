@@ -50,5 +50,10 @@ namespace xamlElemendid
         {
             await Navigation.PushAsync(new listview());
         }
+
+        private async void camera_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new fotograafia());
+        }
     }
 }

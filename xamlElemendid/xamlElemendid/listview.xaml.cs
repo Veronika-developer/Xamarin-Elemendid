@@ -13,7 +13,7 @@ namespace xamlElemendid
     public partial class listview : ContentPage
     {
         Label header, header2;
-        ListView listView;
+        ListView listView, listView2;
         public listview()
         {
             header = new Label
@@ -38,14 +38,20 @@ namespace xamlElemendid
 
             string[] fruits = new string[] { "Банан", "Гранат", "Апельсин", "Груша", "Персик" };
 
-            ListView listView2 = new ListView();
+            listView2 = new ListView();
             listView2.ItemsSource = fruits;
+            listView2.ItemSelected += ListView2_ItemSelected;
             this.Content = new StackLayout { Children = { header, listView, header2, listView2 } };
+        }
+
+        private void ListView2_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            header2.Text = "Вы выбрали: " + (string)e.SelectedItem;
         }
 
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            header.Text = (string)e.SelectedItem;
+            header.Text = "Вы выбрали: " + (string)e.SelectedItem;
         }
     }
 }

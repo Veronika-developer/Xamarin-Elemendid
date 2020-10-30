@@ -27,6 +27,18 @@ namespace xamlElemendid
                         Placeholder = "введите логин",
                         Keyboard = Keyboard.Default
                     },
+                    new EntryCell
+                    {
+                        Label = "Имя:",
+                        Placeholder = "введите имя",
+                        Keyboard = Keyboard.Default
+                    },
+                    new EntryCell
+                    {
+                        Label = "Фамилия:",
+                        Placeholder = "введите фамилию",
+                        Keyboard = Keyboard.Default
+                    },
                     new SwitchCell { Text = "Сохранить"}
                 },
                 new TableSection ("Контакты")

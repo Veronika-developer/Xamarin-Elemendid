@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Sr3fCCI6c4/91/LK6A34WHW2IK4DtVAL9SyrpVxsaQkvWG+LHA5PjL73cO+9fqfhmWjyM57z1iRPp5moUByGRA==",
+  "dgSpecHash": "l2qKQ3JZuX1LqeGVWy2E0OoEZ4CBQ6pYoNC4vtxqkFeJB91EXYtrgbU8zIydZ7jIsCtWN+bDS8lflBYV6eFAjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\opilane\\source\\repos\\Jefimova\\navigationPage\\xamlElemendid\\xamlElemendid\\xamlElemendid.iOS\\xamlElemendid.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\opilane\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],

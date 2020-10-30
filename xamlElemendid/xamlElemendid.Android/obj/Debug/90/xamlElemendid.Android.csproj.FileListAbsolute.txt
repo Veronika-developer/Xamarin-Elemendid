@@ -463,3 +463,6 @@ C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendi
 C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid.Android\obj\Debug\90\android\assets\Plugin.Media.dll
+C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid.Android\obj\Debug\90\android\assets\Plugin.Media.pdb
+C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid.Android\obj\Debug\90\android\src\crc646957603ea1820544\MediaPickerActivity.java
