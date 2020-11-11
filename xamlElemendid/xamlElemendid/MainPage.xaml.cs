@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using XamarinElements.Map;
+using XamarinElements.TextToSpeech;
 
 namespace xamlElemendid
 {
@@ -54,6 +56,16 @@ namespace xamlElemendid
         private async void camera_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new fotograafia());
+        }
+
+        private async void textToSpeechPage_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TextToSpeechPage());
+        }
+
+        private async void mapPage_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MapPage());
         }
     }
 }

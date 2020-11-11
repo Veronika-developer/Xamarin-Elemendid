@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinElements.TextToSpeech.TextToSpeechPage"
+             Title="TextToSpeech"
+             BackgroundColor="BlanchedAlmond">
+    <ContentPage.Content>
+
+        <StackLayout Spacing="0">
+
+            <Entry 
+            x:Name="text"
+            Placeholder="Write some text"
+            PlaceholderColor="LightGray"
+            WidthRequest="500"
+            HeightRequest="300"
+            VerticalTextAlignment="Start"
+            HorizontalTextAlignment="Start"
+            />
+
+            <Label 
+                Text="Volume"
+                BackgroundColor="NavajoWhite"
+                TextColor="Black"
+                FontSize="22"
+                />
+
+            <Slider 
+                x:Name="vol"
+                ValueChanged="Slider_ValueChanged"
+                BackgroundColor="NavajoWhite"
+                Minimum="0.1"
+                Maximum="1.0"
+                />
+
+            <Label 
+                Text="Pitch"
+                BackgroundColor="NavajoWhite"
+                TextColor="Black"
+                FontSize="22"
+                />
+
+            <Slider 
+                x:Name="pit"
+                ValueChanged="Slider_ValueChanged_1"
+                BackgroundColor="NavajoWhite"
+                Minimum="0.1"
+                Maximum="1.0"
+                />
+            <Button 
+                Clicked="Button_Clicked"
+                Text="Speak"
+                Font="22"
+                BackgroundColor="NavajoWhite"
+                CornerRadius="10"
+                WidthRequest="200"
+                HeightRequest="100"
+                TextColor="Black"
+                VerticalOptions="FillAndExpand"
+                />
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -20,3 +20,5 @@ C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendi
 C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid\obj\Debug\netstandard2.0\fotograafia.xaml.g.cs
 C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid\obj\Debug\netstandard2.0\xamlElemendid.csproj.CoreCompileInputs.cache
 C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid\obj\Debug\netstandard2.0\TextToSpeechPage.xaml.g.cs
+C:\Users\opilane\source\repos\Jefimova\navigationPage\xamlElemendid\xamlElemendid\xamlElemendid\obj\Debug\netstandard2.0\MapPage.xaml.g.cs

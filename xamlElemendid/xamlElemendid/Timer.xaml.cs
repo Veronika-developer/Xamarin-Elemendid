@@ -14,7 +14,7 @@ namespace xamlElemendid
     {
         Button stopButton, startButton;
         Label timerLabel;
-        bool alive = true;
+        bool alive = false;
         public Timer()
         {
             StackLayout stack = new StackLayout()

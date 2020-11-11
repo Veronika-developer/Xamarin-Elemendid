@@ -4,7 +4,7 @@
              x:Class="xamlElemendid.MainPage">
 
     <ContentPage.Content>
-        <StackLayout Padding="50,40,50,40" BackgroundColor="LightGray">
+        <StackLayout Padding="50,3,50,3" BackgroundColor="LightGray">
             <Button Text="Timer" BackgroundColor="Black" TextColor="White" Clicked="Button_Clicked"/>
             <Button x:Name="webView" BackgroundColor="Black" TextColor="White" Text="WebView" Clicked="webView_Clicked"/>
             <Button x:Name="tableview" BackgroundColor="Black" TextColor="White" Text="TableView" Clicked="tableview_Clicked"/>
@@ -13,6 +13,8 @@
             <Button x:Name="timepicker" BackgroundColor="Black" TextColor="White" Text="TimePicker" Clicked="timepicker_Clicked"/>
             <Button x:Name="listview" BackgroundColor="Black" TextColor="White" Text="ListView" Clicked="listview_Clicked"/>
             <Button x:Name="camera" BackgroundColor="Black" TextColor="White" Text="Camera" Clicked="camera_Clicked" />
+            <Button x:Name="textToSpeechPage" BackgroundColor="Black" TextColor="White" Text="Text to speech" Clicked="textToSpeechPage_Clicked" />
+            <Button x:Name="mapPage" BackgroundColor="Black" TextColor="White" Text="Map" Clicked="mapPage_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 

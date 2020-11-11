@@ -34,7 +34,7 @@ namespace xamlElemendid
             // съемка фото
             takePhotoBtn.Clicked += async (o, e) =>
             {
-                if (CrossMedia.Current.IsCameraAvailable && CrossMedia.Current.IsTakePhotoSupported)
+                if (CrossMedia.Current.IsCameraAvailable && CrossMedia.Current.IsTakePhotoSupported)// проверка наличие камеры
                 {
                     MediaFile file = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                     {
